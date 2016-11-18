@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dwatkin.download.LTspice</string>
+	<string>com.github.dwatkin.autopkg.download.LTspice</string>
 	<key>Process</key>
 	<array>
 		<dict>
