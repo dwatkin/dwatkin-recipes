@@ -20,6 +20,8 @@
 	<key>Process</key>
 	<array>
 		<dict>
+		<key>Processor</key>
+			<string>URLDownloader</string>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
@@ -27,9 +29,11 @@
 				<key>url</key>
 				<string>%DOWNLOAD_URL%</string>
 			</dict>
-			<key>Processor</key>
-			<string>URLDownloader</string>
 		</dict>
+		<dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
 	</array>
 </dict>
 </plist>
